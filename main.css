@@ -6,14 +6,14 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     color: #545454;
-    background-color: #ffffff;
+    background-color: #2b1d3c;
 }
 
 #wrapper{
     padding: 20px;
     margin: 0 auto;
     max-width: 800px;
-    background-color: #dedede;
+    background-color: #c0c0c0;
 }
 
 hr {
@@ -59,25 +59,29 @@ button {
 }
 
 .clearButton {
-    background-color: #99DDEE;
-    color: #105062;
+    background-color: #282828;
+    color: #FFFFFF;
     float: right;
+    box-shadow:2px 2px 1px black;
 }
 
 .clearButton:hover {
-    background-color: #88CCDD;
-    color: #0d3f4b;
+    background-color: #FFFFFF;
+    color: #282828;
+    box-shadow:0px 0px 30px white;
 }
 
 .saveButton {
-    background-color: #88EE66;
-    color: #20770c;
+    background-color: #282828;
+    color: #FFFFFF;
     float: right;
+    box-shadow:2px 2px 1px black;
 }
 
 .saveButton:hover {
-    background-color: #77DD55;
-    color: #175509;
+    background-color: #FFFFFF;
+    color: #282828;
+    box-shadow:0px 0px 20px white;
 }
 
 button:hover {
